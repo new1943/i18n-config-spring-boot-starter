@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.github.demo.autoconfig.i18nConsulAutoConfiguration,\
+  com.github.demo.autoconfig.i18nNacosAutoConfiguration
+
