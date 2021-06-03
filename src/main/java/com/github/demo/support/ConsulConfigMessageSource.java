@@ -105,7 +105,7 @@ public class ConsulConfigMessageSource extends AbstractResourceBasedMessageSourc
             if (holder == null) {
                 Long lastTime = cachedFetchTime.get(filename);
                 if (lastTime != null && System.currentTimeMillis() - lastTime < i18nProperties.getDelayMs()) {
-                    logger.info("wait for the waiting time end.{}", filename);
+                    logger.debug("wait for the delay time to expire. {}", filename);
                     continue;
                 }
                 loadInitialProperties(filename);
