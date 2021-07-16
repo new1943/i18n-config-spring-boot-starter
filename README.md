@@ -62,7 +62,7 @@ public class xxx {
 
     @GetMapping(value = "/test")
     public Wrapper test() {
-        return WrapMapper.ok(messageSource.getMessage("hello.world", new Object[]{"医百科技"}, Locale.CHINA));
+        return WrapMapper.ok(messageSource.getMessage("hello.world", new Object[]{"哈哈哈"}, Locale.CHINA));
     }
 }
 ```
